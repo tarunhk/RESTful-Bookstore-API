@@ -116,10 +116,56 @@ http://localhost:8080/swagger-ui/index.html
 
 ---
 
-## 💡 Future Improvements
-- Add JWT Authentication
-- Use MySQL/PostgreSQL instead of H2
-- Add Global Exception Handling
-- Implement DTO pattern
 
+## 🧠 Concepts Used
+
+### 1️⃣ REST API
+Implemented CRUD operations using Spring Boot controllers.
+
+### 2️⃣ Layered Architecture
+Followed: Controller → Service → Repository
+
+### 3️⃣ JPA & Hibernate
+Used for database interaction without writing SQL.
+
+### 4️⃣ Entity Relationships
+Implemented Many-to-One relationship between Book and Author.
+
+### 5️⃣ Pagination & Sorting
+Used Spring Data Pageable for efficient data handling.
+
+### 6️⃣ Swagger Documentation
+Integrated OpenAPI for API testing and documentation.
+
+---
+
+
+## 📊 Sample Output
+```
+GET /books?page=0&size=5&sort=id
+
+Response:
+{
+  "content": [
+    {
+      "id": 1,
+      "title": "Spring Boot Mastery",
+      "genre": "Tech",
+      "price": 599
+    }
+  ]
+}
+```
+
+---
+
+
+## 🎓 Learning Outcomes
+- Building REST APIs using Spring Boot
+- Understanding layered architecture
+- Working with relational databases using JPA
+- Implementing pagination and filtering
+- Designing scalable backend systems
+- Using Swagger for API testing
+- Handling real-world backend development
 
