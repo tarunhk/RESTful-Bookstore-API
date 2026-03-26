@@ -15,7 +15,7 @@ A RESTful backend application built using Spring Boot to manage books and author
 ---
 
 ## 🛠️ Tech Stack
--Java
+- Java
 - Spring Boot
 - Spring Data JPA
 - H2 Database
@@ -123,7 +123,3 @@ http://localhost:8080/swagger-ui/index.html
 - Implement DTO pattern
 
 
-
-## ⭐ If you like this project
-
-Give it a star ⭐ on GitHub!
