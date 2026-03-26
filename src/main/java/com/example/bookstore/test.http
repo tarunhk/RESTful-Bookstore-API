@@ -1,0 +1,27 @@
+POST http://localhost:8080/authors
+Content-Type: application/json
+
+{
+  "name": "Akash",
+  "email": "akash@gmail.com"
+}
+
+###
+
+GET http://localhost:8080/authors
+
+###
+POST http://localhost:8080/books
+Content-Type: application/json
+
+{
+  "title": "Spring Boot Guide",
+  "genre": "Tech",
+  "price": 499,
+  "author": {
+    "id": 1
+  }
+}
+
+###
+GET http://localhost:8080/books
