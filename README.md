@@ -5,24 +5,22 @@ A RESTful backend application built using Spring Boot to manage books and author
 ---
 
 ## 🚀 Features
-
-* 📖 Manage Books and Authors (CRUD operations)
-* 🔗 Entity Relationship (Many-to-One: Book → Author)
-* 📄 Pagination & Sorting
-* 🔍 Filtering & Search (by title and genre)
-* 📘 Swagger UI for API documentation
-* 🗄️ H2 In-Memory Database
+- 📖 Manage Books and Authors (CRUD operations)
+- 🔗 Entity Relationship (Many-to-One: Book → Author)
+- 📄 Pagination & Sorting
+- 🔍 Filtering & Search (by title and genre)
+- 📘 Swagger UI for API documentation
+- 🗄️ H2 In-Memory Database
 
 ---
 
 ## 🛠️ Tech Stack
-
-* Java
-* Spring Boot
-* Spring Data JPA
-* H2 Database
-* Maven
-* Swagger (OpenAPI)
+-Java
+- Spring Boot
+- Spring Data JPA
+- H2 Database
+- Maven
+- Swagger (OpenAPI)
 
 ---
 
@@ -74,12 +72,11 @@ http://localhost:8080
 * POST /authors
 
 ### 📗 Book APIs
-
-* GET /books
-* POST /books
-* GET /books?page=0&size=2
-* GET /books/genre?genre=Tech
-* GET /books/search?title=Spring
+- GET /books
+- POST /books
+- GET /books?page=0&size=2
+- GET /books/genre?genre=Tech
+- GET /books/search?title=Spring
 
 ---
 
@@ -99,8 +96,8 @@ http://localhost:8080/swagger-ui/index.html
 
 ```json
 {
-  "name": "Akash",
-  "email": "akash@gmail.com"
+  "name": "Tarun",
+  "email": "tarunhk1520@gmail.com"
 }
 ```
 
@@ -120,19 +117,12 @@ http://localhost:8080/swagger-ui/index.html
 ---
 
 ## 💡 Future Improvements
+- Add JWT Authentication
+- Use MySQL/PostgreSQL instead of H2
+- Add Global Exception Handling
+- Implement DTO pattern
 
-* Add JWT Authentication
-* Use MySQL/PostgreSQL instead of H2
-* Add Global Exception Handling
-* Implement DTO pattern
 
----
-
-## 👨‍💻 Author
-
-Akash Natarajan
-
----
 
 ## ⭐ If you like this project
 
