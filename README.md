@@ -47,7 +47,7 @@ git clone https://github.com/YOUR_USERNAME/RESTful-Bookstore-API
 2. Navigate to project:
 
 ```
-cd bookstore-api
+cd RESTful-Bookstore-API
 ```
 
 3. Run the application:
