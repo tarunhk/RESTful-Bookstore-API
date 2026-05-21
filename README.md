@@ -41,7 +41,7 @@ src/
 1. Clone the repository:
 
 ```
-git clone https://github.com/YOUR_USERNAME/bookstore-api.git
+git clone https://github.com/YOUR_USERNAME/RESTful-Bookstore-API
 ```
 
 2. Navigate to project:
