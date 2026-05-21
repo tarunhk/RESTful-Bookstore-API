@@ -59,7 +59,10 @@ cd RESTful-Bookstore-API
 4. Server will start at:
 
 ```
-http://localhost:8080
+http://localhost:8080](http://localhost:8080/swagger-ui/index.html
+```
+```
+http://localhost:8080/h2-console
 ```
 
 ---
